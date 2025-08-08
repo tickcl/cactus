@@ -26,12 +26,6 @@ Visible = true,
 ZIndex = 0,
 Transparency = 1,
 Color = Color3.new(),
-Remove = function(fvs)
-    setmetatable(fvs, nil)
-end,
-Destroy = function(fvs)
-    setmetatable(fvs, nil)
-end,
 SetProperty = function(fvs, index, value)
     if fvs[index] ~= nil then
         fvs[index] = value
