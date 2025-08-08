@@ -3,8 +3,6 @@ local drawingUI = Instance.new("ScreenGui")
 drawingUI.Name = "draw"
 drawingUI.IgnoreGuiInset = true
 drawingUI.DisplayOrder = 0x7fffffff
-repeat task.wait() until setthreadidentity
-setthreadidentity(8)
 --drawingUI.Parent = nil--game.CoreGui
 
 local drawingIndex = 0
